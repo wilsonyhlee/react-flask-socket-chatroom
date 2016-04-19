@@ -1,0 +1,78 @@
+.bg-dark {
+    background: #3a3f5c;
+}
+
+.bg-light {
+    background: #f7f7f7
+}
+
+.font-dark {
+    color: #3a3f5c;
+}
+
+.font-light {
+    color: #f7f7f7;
+}
+
+.br-dark {
+    border-color: #3a3f5c;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+
+
+.text-center {
+    text-align: center;
+}
+
+.bal {
+    border: 2px solid;
+}
+
+/* spacing classes */
+.ptn, .pvn, .pan {  padding-top: 0px !important  }
+.pts, .pvs, .pas {  padding-top: 5px !important  }
+.ptm, .pvm, .pam {  padding-top: 10px !important  }
+.ptl, .pvl, .pal {  padding-top: 15px !important  }
+.ptx, .pvx, .pax {  padding-top: 30px !important  }
+.prn, .phn, .pan {  padding-right: 0px !important  }
+.prs, .phs, .pas {  padding-right: 5px !important  }
+.prm, .phm, .pam {  padding-right: 10px !important  }
+.prl, .phl, .pal {  padding-right: 15px !important  }
+.prx, .phx, .pax {  padding-right: 30px !important  }
+.pbn, .pvn, .pan {  padding-bottom: 0px !important  }
+.pbs, .pvs, .pas {  padding-bottom: 5px !important  }
+.pbm, .pvm, .pam {  padding-bottom: 10px !important  }
+.pbl, .pvl, .pal {  padding-bottom: 15px !important  }
+.pbx, .pvx, .pax {  padding-bottom: 30px !important  }
+.pln, .phn, .pan {  padding-left: 0px !important  }
+.pls, .phs, .pas {  padding-left: 5px !important  }
+.plm, .phm, .pam {  padding-left: 10px !important  }
+.pll, .phl, .pal {  padding-left: 15px !important  }
+.plx, .phx, .pax {  padding-left: 30px !important  }
+.mtn, .mvn, .man {  margin-top: 0px !important  }
+.mts, .mvs, .mas {  margin-top: 5px !important  }
+.mtm, .mvm, .mam {  margin-top: 10px !important  }
+.mtl, .mvl, .mal {  margin-top: 15px !important  }
+.mtx, .mvx, .max {  margin-top: 30px !important  }
+.mrn, .mhn, .man {  margin-right: 0px !important  }
+.mrs, .mhs, .mas {  margin-right: 5px !important  }
+.mrm, .mhm, .mam {  margin-right: 10px !important  }
+.mrl, .mhl, .mal {  margin-right: 15px !important  }
+.mrx, .mhx, .max {  margin-right: 30px !important  }
+.mbn, .mvn, .man {  margin-bottom: 0px !important  }
+.mbs, .mvs, .mas {  margin-bottom: 5px !important  }
+.mbm, .mvm, .mam {  margin-bottom: 10px !important  }
+.mbl, .mvl, .mal {  margin-bottom: 15px !important  }
+.mbx, .mvx, .max {  margin-bottom: 30px !important  }
+.mln, .mhn, .man {  margin-left: 0px !important  }
+.mls, .mhs, .mas {  margin-left: 5px !important  }
+.mlm, .mhm, .mam {  margin-left: 10px !important  }
+.mll, .mhl, .mal {  margin-left: 15px !important  }
+.mlx, .mhx, .max {  margin-left: 30px !important  }
+.mra, .mha {  margin-right: auto !important  }
+.mla, .mha {  margin-left: auto !important  }
+
