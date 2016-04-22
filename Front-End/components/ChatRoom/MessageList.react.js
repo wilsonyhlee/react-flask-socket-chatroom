@@ -5,7 +5,7 @@ var Message = require("./Message.react");
 var MessageList = React.createClass({
     render: function() {
         var messages = this.props.messageList.map(function(m, i) {
-            return <Message user={m.user} content={m.content}/>
+            return <Message key={i} user={m.user} message={m.message} timestamp={m.timestamp}/>
         });
 
         return (

@@ -1,3 +1,8 @@
+#app {
+    width: 1270px;
+    margin: 0 auto;
+}
+
 .bg-dark {
     background: #3a3f5c;
 }
@@ -22,7 +27,9 @@
     height: 100%;
 }
 
-
+.vh-100 {
+    height: 100vh;
+}
 
 .text-center {
     text-align: center;
@@ -31,6 +38,36 @@
 .bal {
     border: 2px solid;
 }
+
+.input-block {
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid #ccc;
+    background: #f6f7f8;
+}
+
+.input-block .editableDiv {
+    background: #FFF;
+    border: 1px solid #ccc;
+    min-height: 50px;
+    margin-bottom: 10px;
+}
+
+.hovered img {
+    height:20px !important;
+    width:20px !important;
+}
+
+.chatRoomListBlock {
+    border-bottom: 2px solid #3a3f5c;
+}
+
+.chatRoomListBlock.selected {
+    background: #3a3f5c;
+    font-weight: bold;
+    color: #FFF;
+}
+
 
 /* spacing classes */
 .ptn, .pvn, .pan {  padding-top: 0px !important  }

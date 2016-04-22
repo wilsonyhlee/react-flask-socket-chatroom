@@ -4,19 +4,16 @@ var MessageList = require("./MessageList.react");
 var Input = require("./Input.react");
 
 var ChatRoom = React.createClass({
-    getInitialState() {
-        return {users: [], messages:[{user: "Wilson", content:"hi"}, {user: "Neil", content:"hey"}], text: ''};
-    },
     render: function() {
 
-        var index = this.props.index;
+        var name = this.props.name;
 
         return (
-            <div className="col-xs-3 height-100 br-dark bal phn">
-                <div className="bg-dark font-light pal text-center">Chat Room #{index}</div>
+            <div className="col-xs-8 vh-100 br-dark bal phn">
+                <div className="bg-dark font-light pal text-center">Chat Room #{name}</div>
                 <div className="bg-light">
-                    <MessageList messageList={this.state.messages}/>
-                    <Input />
+                    <MessageList messageList={this.props.messageList}/>
+                    <Input submitMessage={this.props.submitMessage}/>
                 </div>
             </div>
         )
